@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: taskmaster
-          image: anand1590/taskapp:latest
+          image: anand1590/todoapp:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
